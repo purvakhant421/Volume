@@ -9,8 +9,8 @@ struct Marks {
 int main() {
 	
     struct Marks m[5];
-    
-    for(int i=0; i<4; i++){
+    int i;
+    for(i=0; i<4; i++){
 		printf("Student %d\n",i+1);
         printf("Enter roll no. :\n");
         scanf("%d", &m[i].roll_no);
